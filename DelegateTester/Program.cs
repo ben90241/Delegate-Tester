@@ -7,10 +7,6 @@ namespace DelegateTester
         public delegate void MyDelegate(string msg);
         public delegate int IntDelegate();
         public delegate T add<T>(T a, T b);
-        static void test()
-        {
-
-        }
         static void Main(string[] args)
         {
             //Console.WriteLine("Hello World!");
